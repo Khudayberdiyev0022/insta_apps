@@ -1,0 +1,20 @@
+.main{
+    width: 95%;
+    margin: auto;
+    color: #fff;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.main h3, .main h4, .main h5{
+    padding: 2px;
+    margin: 0px;
+    font-weight: 100;
+}
+.main h4{
+    color: rgb(175, 172, 172);
+}
+.main a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}

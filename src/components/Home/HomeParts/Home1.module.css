@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    min-width: 100%;
+    overflow-x: scroll;
+    height: 100px;
+    background-color: #000;
+    border-bottom: 1px solid black;
+    padding-top: 60px;
+}
+.main::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}

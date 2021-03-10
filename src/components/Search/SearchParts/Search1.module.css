@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 50px;
+}
+.main button{
+    border: none;
+}
+.main svg{
+    color: #fff;
+    height: 70%;
+    width: 30px;
+    background-color: rgb(112, 107, 107);
+    border: 1px solid rgb(112, 107, 107);
+    border-radius: 10px 0px 0px 10px;
+}
+.input{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    width: 90%;
+    background-color: rgb(112, 107, 107);
+    border: none;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+}
+.input input::-webkit-input-placeholder{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.main>svg{
+    width: 10%;
+    background-color: transparent;
+    margin: auto;
+    height: 28px;
+    border: none;
+
+}

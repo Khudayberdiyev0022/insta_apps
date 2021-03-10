@@ -1,0 +1,23 @@
+.main{
+    width: 95%;
+    margin: auto;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.main button{
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main button:hover{
+    background-color: transparent;
+    color: #eee;
+    border: 1px solid #eee;
+}

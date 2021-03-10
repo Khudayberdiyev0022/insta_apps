@@ -1,0 +1,14 @@
+.main{
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #fff;
+    grid-template-rows: repeat(15, minmax(100px, 130px));
+}
+.img{
+    max-height: 130px;
+    max-width: 99%;
+    background-position: center;
+    background-size: cover;
+}

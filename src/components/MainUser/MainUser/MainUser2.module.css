@@ -1,0 +1,32 @@
+.main{
+    padding-top: 60px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.img{
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.inform{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inform >div{
+    height: 100%;
+}
+.inform h3, .inform h5{
+    text-align: center;
+    margin: 0px;
+    padding: 2px;
+}

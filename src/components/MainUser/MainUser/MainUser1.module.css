@@ -1,0 +1,48 @@
+.main{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #000;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    color: #fff;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.name h1{
+    font-size: 20px;
+}
+.name svg{
+    width: 40px;
+    height: 40px;
+}
+.icons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main svg{
+    fill: #fff;
+    stroke: #fff;
+    height: 40px;
+    width: 40px;
+    stroke-width: 30px;
+}
+.main svg:hover{
+    fill: rgb(180, 177, 177);
+}
